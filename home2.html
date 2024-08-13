@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body{
+            background-image: url(/img/background\ .jpg);
+            width: 900px;
+        }
+        .icon{
+            font-size: 180px;
+        }
+        .mid{
+            animation-name: jana;
+            animation-duration: 5s;
+            animation-delay: 1s;
+            animation-timing-function:ease-in-out;
+            animation-iteration-count:infinite;
+            animation-fill-mode: inherit;
+        }
+        @keyframes jana {
+            0%{
+                color: rgb(255, 255, 255);
+            }
+            35%{
+                color: rgb(175, 136, 177);
+            }
+            75%{
+                color: rgb(121, 18, 18);
+            }
+            100%{
+                color: rgb(63, 89, 160);
+            }
+            
+        }
+        h3{
+            font-size: 40px; 
+           position: relative;
+           bottom:155px ;
+           left: 185px;
+           color: white;
+        }
+        p{
+            font-size:56px ;
+            margin: 0px;
+            text-align: center;
+            position: relative;
+            left: 145px;
+            color: rgb(255, 255, 255);
+        }
+        .navebar{
+            
+            margin: 75px 0px 25px 275px;
+            width: 700px;
+        }
+        a {
+           border: 2px solid grey;
+           text-align: center;
+          padding: 10px 30px;
+          border-radius: 60px;
+          text-decoration:none;
+          color: aliceblue;
+          font-size: 24px;
+          background-color: black;
+           
+        }
+        .right{
+            border: 2px solid gray;
+            position: fixed;
+            top: 0%;
+            right: 0%;
+            width: 80px;
+            text-align: center;
+            border-radius: 20px;
+            padding: 5px 10px;
+            font-size: 24px;
+            color: white;
+            background-color: black;
+}
+#p{
+    font-size: 20px;
+    position: relative;
+    top: 85px;
+}
+.navebar a:hover{
+    color: rgb(114, 32, 32);
+}
+    </style>
+</head>
+
+<body>
+    <header class="top">
+        <div class="icon">
+            <i class='bx bxl-blogger'></i>
+        </div>
+        <div>
+            <h3 class="Blog">Pakistan's Blog</h3>
+        </div>
+        <div class="right">Help</div>
+    </header>
+    <div >
+        <p class="mid">Explore World's best Blog site </p>
+    </div>
+    <div class="navebar">
+        <a href="/login.html">Home</a>
+        <a href="/places.html">Catogries
+        </a>
+        <a href="/create.html">Post Creation</a>
+        <a href="#" >Contact Us</a>
+    </div>
+    <footer>
+        <p id="p">&copy; 2024 Blog's Platform</p> 
+    </footer>
+</body>
+
+</html>
